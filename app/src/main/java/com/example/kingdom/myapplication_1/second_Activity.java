@@ -8,17 +8,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-public class seond_Activity extends AppCompatActivity {
+public class second_Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_seond_);
+        setContentView(R.layout.activity_second_);
         Button button_1=(Button)findViewById(R.id.button_1);
         button_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(seond_Activity.this,MainActivity.class);
+                Intent intent=new Intent(second_Activity.this,MainActivity.class);
                 startActivity(intent);
             }
         });
